@@ -7,20 +7,19 @@ def bsort(arr)
         temp = arr[i] <=> arr[j]
        if temp == 1
             arr[i], arr[j] = arr[j], arr[i]
-        end
+       end
     end      
      sorted[n] = arr[n] 
      n -= 1               
     end
-
 return sorted
 end
 
 # Second implementation
 
 def bubble_sort(arr = [2, 4, 1, 5, 3, 10, 6])
-    n = arr.length
-    loop do
+  n = arr.length
+  loop do
       (n-1).times do |i|
         if (arr[i] <=> arr[i+1]) == 1
           arr[i], arr[i+1] = arr[i+1], arr[i]
@@ -30,10 +29,7 @@ def bubble_sort(arr = [2, 4, 1, 5, 3, 10, 6])
       break if n <= -1
     end
     return arr
-  end
-  
+end
   p bubble_sort
   
-
 print bsort([0, 6, 10, 5, 7, 1, 3, 4, 8, 9])
-
