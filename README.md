@@ -30,9 +30,9 @@
 
 👤 Jeilil Faisal
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@JelilFisalAbudu](https://github.com/JelilFaisalAbudu)
+- Twitter: [@jelilabudu](https://twitter.com/jelilabudu)
+- Linkedin: [jelilfaisalabudu](https://linkedin.com/in/jelilfaisalabudu)
 
 ## 🤝 Contributing
 
