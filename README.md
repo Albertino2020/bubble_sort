@@ -1,53 +1,34 @@
-# Project Name
+# Advanced Building Blocks - Bubble Sort
 
-> One paragraph statement about the project.
+> This is our Advanced Building Blocks -Bubble Sort Project from the Microverse Curriculum.  We have implemented the bubble sort algorithm using Ruby. The assignment was focused on the use of yield and passing a block to a method.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
+![screenshot](./images/1.png)
+![screenshot](./images/2.png)
+![screenshot](./images/3.png)
+![screenshot](./images/3.png)
+![screenshot](./images/4.png)
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Albertino2020](https://github.com/Albertino2020)
+- Twitter: [@albertino2050](https://twitter.com/albertino2050)
+- Linkedin: [Albertino Francisco, PhD](https://linkedin.com/in/boamorte)
 
-👤 **Author2**
+👤 Jeilil Faisal
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -62,12 +43,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
