@@ -1,6 +1,6 @@
 def bubble_sort_1(arr)
   sorted = []
-  n = (arr.length) - 1
+  n = arr.length - 1
   while n >= 0
     for i in 0..n - 1
       j = i + 1
@@ -12,8 +12,7 @@ def bubble_sort_1(arr)
     sorted[n] = arr[n]
     n -= 1
   end
-
-  return sorted
+  sorted
 end
 
 p bubble_sort_1([0, 6, 10, 5, 7, 1, 3, 4, 8, 9])
@@ -31,7 +30,7 @@ def bubble_sort_2(arr = [2, 4, 1, 5, 3, 10, 6])
     n -= 1
     break if n <= -1
   end
-  return arr
+  arr
 end
 
 p bubble_sort_2
@@ -40,7 +39,7 @@ p bubble_sort_2
 
 def bubble_sort_by(arr)
   sorted = []
-  n = (arr.length) - 1
+  n = arr.length - 1
   while n >= 0
     0.upto(n - 1) do |i|
       a = arr[i]
@@ -54,7 +53,7 @@ def bubble_sort_by(arr)
     n -= 1
   end
 
-  return sorted
+  sorted
 end
 
 p bubble_sort_by (["hi", "hello", "hey"]) { |left, right| left.length - right.length }
