@@ -5,7 +5,7 @@ def bubble_sort_1(arr)
     for i in 0..n - 1
       j = i + 1
       temp = arr[i] <=> arr[j]
-      if temp > 0
+      if temp.positive?
         arr[i], arr[j] = arr[j], arr[i]
       end
     end
@@ -45,8 +45,8 @@ def bubble_sort_by(arr)
       a = arr[i]
       b = arr[i + 1]
       temp = yield(a, b)
-      if temp > 0
-        arr[i], arr[i + 1] = a, b
+      if temp.positive?
+        arr[i], arr[i + 1] = b, a
       end
     end
     sorted[n] = arr[n]
