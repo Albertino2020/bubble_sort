@@ -39,8 +39,7 @@ def bubble_sort_by(arr)
   n = arr.length - 1
   while n >= 0
     0.upto(n - 1) do |i|
-      a = arr[i], b = arr[i + 1]
-      temp = yield(a, b)
+      temp = yield arr[i], arr[i + 1]
       arr[i], arr[i + 1] = arr[i + 1], arr[i] if temp.positive?
     end
     n -= 1
