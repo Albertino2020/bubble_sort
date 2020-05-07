@@ -2,7 +2,7 @@ def bubble_sort_1(arr)
   sorted = []
   n = arr.length - 1
   while n >= 0
-    for i in 0..n - 1
+    0.upto(n - 1) do |i|
       j = i + 1
       temp = arr[i] <=> arr[j]
       if temp.positive?
